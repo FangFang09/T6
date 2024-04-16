@@ -1,13 +1,7 @@
-* {
-  outline: 1px solid lightcoral;
-}
-
 h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 p {
   margin: 0;
 }
@@ -323,16 +317,16 @@ h1 img {
   color: #80B600;
 }
 
-.services h5, .programs h5, .support h5, .strategies h5 {
-  font-size: 1.25rem;
+.services h4, .programs h4, .support h4, .strategies h4 {
+  font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   height: 38px;
 }
 @media (min-width: 992px) {
-  .services h5, .programs h5, .support h5, .strategies h5 {
-    font-size: 1rem;
+  .services h4, .programs h4, .support h4, .strategies h4 {
+    font-size: 1.25rem;
   }
 }
 
