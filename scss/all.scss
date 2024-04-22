@@ -3,17 +3,15 @@
 @use "./utilities/background";
 @use "./utilities/breakpoint";
 @use "./utilities/color";
-@use "./utilities/flex";
 
 @use "./layout/body";
 @use "./layout/header";
 @use "./layout/main";
 @use "./layout/footer";
 
-@use "./components/logo";
-@use "./components/socialMedia";
-@use "./components/card";
-@use "./components/companyInfo";
+@use "./components/social-media";
+@use "./components/product";
+@use "./components/company-info";
 @use "./components/swiper";
 
 @use "./vendor/navbar";

@@ -2,21 +2,27 @@ $smSize: 576px;
 $mdSize: 768px;
 $lgSize: 992px;
 
-
-@mixin mobile {
-    @media (min-width:$smSize) {
+//Chris建議
+@mixin deviceSize ($size){
+    @media (min-width:$size){
         @content;
     }
 }
+//原先寫法
+// @mixin sm {
+//     @media (min-width:$smSize) {
+//         @content;
+//     }
+// }
 
-@mixin tablet {
-    @media (min-width:$mdSize) {
-        @content;
-    }
-}
+// @mixin md {
+//     @media (min-width:$mdSize) {
+//         @content;
+//     }
+// }
 
-@mixin desktop {
-    @media (min-width:$lgSize) {
-        @content;
-    }
-}
+// @mixin lg {
+//     @media (min-width:$lgSize) {
+//         @content;
+//     }
+// }
